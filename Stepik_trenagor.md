@@ -5,3 +5,5 @@
 Интерактивный тренажёр SQL 2 (25.10.22) - https://docs.google.com/document/d/14AVxRwaK4_xPCxZUQR1-OW2BtjJidI5nyST-2NxGRWo/edit?usp=sharing
 
 Интерактивный тренажёр SQL 3 (26.10.22) - https://docs.google.com/document/d/12QvYyjuU3mSW3BXp69dYY7kjglFhZ5vWPrkh5PaaxM4/edit?usp=sharing
+
+Интерактивный тренажёр SQL 4 (31.10.22) - https://docs.google.com/document/d/16KR25nfMIwbQNanLycEffuq4CZmCJcELl42FNcB6S_A/edit?usp=sharing
