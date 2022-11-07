@@ -9,3 +9,5 @@
 Интерактивный тренажёр SQL 2.3-3.1 (01.11.22) - https://docs.google.com/document/d/16KR25nfMIwbQNanLycEffuq4CZmCJcELl42FNcB6S_A/edit?usp=sharing
 
 Интерактивный тренажёр SQL 3.2-3.5 (05.11.22) - https://docs.google.com/document/d/1vqZ_8vX4ren005zzzrFBFiM514wq3dI8HgfffbDS1BA/edit?usp=sharing
+
+сертификат - https://stepik.org/cert/1751864
