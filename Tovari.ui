@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>942</width>
+    <height>790</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <pointsize>15</pointsize>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>Товары</string>
+  </property>
+  <widget class="QTableWidget" name="twStaffs">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>400</y>
+     <width>911</width>
+     <height>381</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QWidget" name="">
+   <property name="geometry">
+    <rect>
+     <x>490</x>
+     <y>10</y>
+     <width>411</width>
+     <height>281</height>
+    </rect>
+   </property>
+   <layout class="QFormLayout" name="formLayout">
+    <item row="2" column="0">
+     <widget class="QLabel" name="label_7">
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>вес</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="1">
+     <widget class="QLineEdit" name="leVes"/>
+    </item>
+    <item row="1" column="1">
+     <widget class="QLineEdit" name="leHaracteristiki"/>
+    </item>
+    <item row="1" column="0">
+     <widget class="QLabel" name="label_9">
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>характеристики</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="0">
+     <widget class="QLabel" name="label_11">
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>описание</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="1">
+     <widget class="QLineEdit" name="leOpisanie"/>
+    </item>
+    <item row="4" column="0">
+     <widget class="QLabel" name="label_12">
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>особенность</string>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="0">
+     <widget class="QLabel" name="label_10">
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>стоимость</string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="1">
+     <widget class="QLineEdit" name="leOsobennost"/>
+    </item>
+    <item row="5" column="1">
+     <widget class="QLineEdit" name="leStoiost"/>
+    </item>
+    <item row="6" column="0">
+     <widget class="QLabel" name="label_8">
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>главное изображение</string>
+      </property>
+     </widget>
+    </item>
+    <item row="6" column="1">
+     <widget class="QLineEdit" name="leGlIzobrazch"/>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="">
+   <property name="geometry">
+    <rect>
+     <x>11</x>
+     <y>11</y>
+     <width>397</width>
+     <height>281</height>
+    </rect>
+   </property>
+   <layout class="QFormLayout" name="formLayout_2">
+    <item row="0" column="0">
+     <widget class="QLabel" name="label">
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>история покупок</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="1">
+     <widget class="QLineEdit" name="leIstoriaPok"/>
+    </item>
+    <item row="1" column="0">
+     <widget class="QLabel" name="label_2">
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>наименование</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="1">
+     <widget class="QLineEdit" name="leNaimenovanie"/>
+    </item>
+    <item row="2" column="0">
+     <widget class="QLabel" name="label_4">
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>размер</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="1">
+     <widget class="QLineEdit" name="leRazmer"/>
+    </item>
+    <item row="3" column="0">
+     <widget class="QLabel" name="label_3">
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>производитель</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="1">
+     <widget class="QLineEdit" name="leProizvoditel"/>
+    </item>
+    <item row="4" column="0">
+     <widget class="QLabel" name="label_6">
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>флажки</string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="1">
+     <layout class="QHBoxLayout" name="horizontalLayout">
+      <item>
+       <widget class="QRadioButton" name="rbActualno">
+        <property name="font">
+         <font>
+          <pointsize>11</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>Актуально</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QRadioButton" name="rbNeActualno">
+        <property name="font">
+         <font>
+          <pointsize>11</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>Не актуально</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item row="5" column="0">
+     <widget class="QLabel" name="label_5">
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>категория</string>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="1">
+     <widget class="QLineEdit" name="leKategori"/>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="">
+   <property name="geometry">
+    <rect>
+     <x>280</x>
+     <y>320</y>
+     <width>345</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="0">
+     <widget class="QPushButton" name="pbInsert">
+      <property name="text">
+       <string>Добавить</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="1">
+     <widget class="QPushButton" name="pbOpen">
+      <property name="text">
+       <string>Открыть</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="2">
+     <widget class="QPushButton" name="pbDelete">
+      <property name="text">
+       <string>Удалить</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

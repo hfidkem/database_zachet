@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>963</width>
+    <height>612</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <pointsize>10</pointsize>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>sotrudnik</string>
+  </property>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>460</x>
+     <y>190</y>
+     <width>295</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout_2">
+    <item>
+     <widget class="QPushButton" name="pushButton_2">
+      <property name="text">
+       <string>Добавить</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pushButton_3">
+      <property name="text">
+       <string>Удалить</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pushButton">
+      <property name="text">
+       <string>Открыть</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QTableWidget" name="tableWidget">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>320</y>
+     <width>911</width>
+     <height>291</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QWidget" name="">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>30</y>
+     <width>336</width>
+     <height>371</height>
+    </rect>
+   </property>
+   <layout class="QFormLayout" name="formLayout">
+    <item row="1" column="0">
+     <widget class="QLabel" name="label">
+      <property name="text">
+       <string>Фамилия</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="1">
+     <widget class="QLineEdit" name="leFamilia"/>
+    </item>
+    <item row="2" column="0">
+     <widget class="QLabel" name="label_2">
+      <property name="text">
+       <string>Имя</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="1">
+     <widget class="QLineEdit" name="leImia"/>
+    </item>
+    <item row="3" column="1">
+     <widget class="QLineEdit" name="LeOtchestvo"/>
+    </item>
+    <item row="4" column="1">
+     <widget class="QLineEdit" name="LeSeria"/>
+    </item>
+    <item row="5" column="1">
+     <widget class="QLineEdit" name="leNomerPass"/>
+    </item>
+    <item row="6" column="1">
+     <layout class="QHBoxLayout" name="horizontalLayout">
+      <item>
+       <widget class="QRadioButton" name="rbFemale">
+        <property name="text">
+         <string>Женский</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QRadioButton" name="rbMale">
+        <property name="text">
+         <string>Мужской</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item row="3" column="0">
+     <widget class="QLabel" name="label_4">
+      <property name="text">
+       <string>Отчество</string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="0">
+     <widget class="QLabel" name="label_5">
+      <property name="text">
+       <string>Серия Паспорта</string>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="0">
+     <widget class="QLabel" name="label_6">
+      <property name="text">
+       <string>Номер паспорта</string>
+      </property>
+     </widget>
+    </item>
+    <item row="6" column="0">
+     <widget class="QLabel" name="label_9">
+      <property name="text">
+       <string>pol</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="">
+   <property name="geometry">
+    <rect>
+     <x>420</x>
+     <y>30</y>
+     <width>365</width>
+     <height>131</height>
+    </rect>
+   </property>
+   <layout class="QFormLayout" name="formLayout_2">
+    <item row="0" column="0">
+     <widget class="QLabel" name="label_7">
+      <property name="text">
+       <string>Код подразделения</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="1">
+     <widget class="QSpinBox" name="spinBox"/>
+    </item>
+    <item row="1" column="0">
+     <widget class="QLabel" name="label_8">
+      <property name="text">
+       <string>Коэффицент оплаты</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="1">
+     <widget class="QLineEdit" name="leLeKoefOpl"/>
+    </item>
+    <item row="2" column="0">
+     <widget class="QLabel" name="label_11">
+      <property name="text">
+       <string>Дата рождения</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="1">
+     <widget class="QLineEdit" name="leDataRozch"/>
+    </item>
+    <item row="3" column="0">
+     <widget class="QLabel" name="label_10">
+      <property name="text">
+       <string>Категория специалиста</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="1">
+     <widget class="QSpinBox" name="spinBox_2"/>
+    </item>
+   </layout>
+  </widget>
+  <zorder>label</zorder>
+  <zorder>label_2</zorder>
+  <zorder>label_4</zorder>
+  <zorder>label_5</zorder>
+  <zorder>label_6</zorder>
+  <zorder>label_7</zorder>
+  <zorder>label_8</zorder>
+  <zorder>label_9</zorder>
+  <zorder>label_10</zorder>
+  <zorder>label_11</zorder>
+  <zorder>layoutWidget</zorder>
+  <zorder>leFamilia</zorder>
+  <zorder>leImia</zorder>
+  <zorder>LeOtchestvo</zorder>
+  <zorder>leNomerPass</zorder>
+  <zorder>leLeKoefOpl</zorder>
+  <zorder>layoutWidget_2</zorder>
+  <zorder>leDataRozch</zorder>
+  <zorder>LeSeria</zorder>
+  <zorder>spinBox</zorder>
+  <zorder>spinBox_2</zorder>
+  <zorder>tableWidget</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

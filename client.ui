@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>947</width>
+    <height>640</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <pointsize>10</pointsize>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>client</string>
+  </property>
+  <widget class="QTableWidget" name="tableWidget">
+   <property name="geometry">
+    <rect>
+     <x>15</x>
+     <y>331</y>
+     <width>911</width>
+     <height>291</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>510</x>
+     <y>10</y>
+     <width>407</width>
+     <height>301</height>
+    </rect>
+   </property>
+   <layout class="QFormLayout" name="formLayout">
+    <item row="0" column="0">
+     <widget class="QLabel" name="label_7">
+      <property name="text">
+       <string>email</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="1">
+     <widget class="QLineEdit" name="leEmail"/>
+    </item>
+    <item row="1" column="1">
+     <layout class="QHBoxLayout" name="horizontalLayout">
+      <item>
+       <widget class="QRadioButton" name="rbMale">
+        <property name="text">
+         <string>Мужской</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QRadioButton" name="rbFemale">
+        <property name="text">
+         <string>Женский</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item row="2" column="1">
+     <widget class="QLineEdit" name="LeDataPervogo"/>
+    </item>
+    <item row="3" column="1">
+     <widget class="QLineEdit" name="lePhoto"/>
+    </item>
+    <item row="1" column="0">
+     <widget class="QLabel" name="label_6">
+      <property name="text">
+       <string>Пол</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="0">
+     <widget class="QLabel" name="label_9">
+      <property name="text">
+       <string>Дата первого посещения</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="0">
+     <widget class="QLabel" name="label_8">
+      <property name="text">
+       <string>Фото</string>
+      </property>
+     </widget>
+    </item>
+    <item row="7" column="1">
+     <layout class="QVBoxLayout" name="verticalLayout">
+      <item>
+       <widget class="QRadioButton" name="rbRed">
+        <property name="text">
+         <string>Красный</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QRadioButton" name="rbBlue">
+        <property name="text">
+         <string>Синий</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QRadioButton" name="rbYellow">
+        <property name="text">
+         <string>Желтый</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QRadioButton" name="rbGreen">
+        <property name="text">
+         <string>Зеленый</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item row="7" column="0">
+     <widget class="QLabel" name="label_10">
+      <property name="text">
+       <string>Тег</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>20</y>
+     <width>294</width>
+     <height>165</height>
+    </rect>
+   </property>
+   <layout class="QFormLayout" name="formLayout_2">
+    <item row="0" column="0">
+     <widget class="QLabel" name="label">
+      <property name="text">
+       <string>Фамилия</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="1">
+     <widget class="QLineEdit" name="leFamilia"/>
+    </item>
+    <item row="1" column="0">
+     <widget class="QLabel" name="label_2">
+      <property name="text">
+       <string>Имя</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="1">
+     <widget class="QLineEdit" name="leImia"/>
+    </item>
+    <item row="2" column="0">
+     <widget class="QLabel" name="label_4">
+      <property name="text">
+       <string>Отчество</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="1">
+     <widget class="QLineEdit" name="leOtchest"/>
+    </item>
+    <item row="3" column="0">
+     <widget class="QLabel" name="label_3">
+      <property name="text">
+       <string>Дага рождения</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="1">
+     <widget class="QLineEdit" name="leDataRozch"/>
+    </item>
+    <item row="4" column="0">
+     <widget class="QLabel" name="label_5">
+      <property name="text">
+       <string>Телефон</string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="1">
+     <widget class="QLineEdit" name="lePhone"/>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>230</y>
+     <width>295</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout_2">
+    <item>
+     <widget class="QPushButton" name="pushButton_3">
+      <property name="text">
+       <string>Удалить</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pushButton">
+      <property name="text">
+       <string>Открыть</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pushButton_2">
+      <property name="text">
+       <string>Добавить</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
